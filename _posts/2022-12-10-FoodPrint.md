@@ -39,6 +39,8 @@ The choice of food can have a large influence on carbon emissions. The potential
 
 Instead of just providing a carbon label, we aim to find a more efficient and practical approach to encourage more sustainable food purchasing decision-making among University of Washington (UW) students.
 
+**Reflection: Food area is a very common area that we engage in very day. All members of our teams are interested in it. We found many evidence that support the relationship between the carbon emission and the food.  However, there are many different opinions about how the food is related to the carbon emission. In the future, we should compare different opinion in detail to have a better understanding.**
+
 
 
 # Investigation
@@ -95,6 +97,10 @@ Instead of just providing a carbon label, we aim to find a more efficient and pr
 
 
 
+**Reflection: we only observed during 4-6 pm in the field study, so our results can only represent users' behaviors in that time. We got some insights from our field notes, but we didn't focus on them when we designed our survey. It caused that some of our questions is not helpful for the brainstorm.  Besides, we should recruit more undergraduate students on main campus to take our survey.**
+
+
+
 # Requirements
 
 ![](/assets/img/requirements.png)
@@ -109,13 +115,21 @@ We came up with three scenarios including on campus and at home. We also conside
 
 
 
+**Reflection: we all sketched in this step. It was very helpful because we considered different aspects of our problem and my teammates' sketch expanded my thinking.**
+
+
+
 # Prototype and Evaluation
 
 ## Prototype
 
-We decided to create a digital medium fidelity prototype to test since we planned the final project to be a phone application that most college students are familiar with. The prototype was an interactive user interface by proto.io and it allowed users to experience the flow of interaction quite like a real app. The prototype included a home page, a search page, an item page, a map page, and a shopping list page. The first four pages were used to test the process of picking up foods when students were in a hurry. The last page was aimed to test the shopping list function. There were pictures of foods, labels of carbon-level, nutrients and calorie information and distance estimation on pages. Participants can click the hot-spots to interact with our prototype.
+We decided to create a digital medium fidelity prototype to test since we planned the final project to be a phone application that most college students are familiar with. The prototype was an interactive user interface by Figma and it allowed users to experience the flow of interaction quite like a real app. The prototype included a home page, a search page, an item page, a map page, and a shopping list page. The first four pages were used to test the process of picking up foods when students were in a hurry. The last page was aimed to test the shopping list function. There were pictures of foods, labels of carbon-level, nutrients and calorie information and distance estimation on pages. Participants can click the hot-spots to interact with our prototype.
 
 ![](/assets/img/prototype.JPG)
+
+
+
+**Reflection: our solution is very straight-forward. However, due to lack of communication, the interface styles made by different team members were not uniform in the end. The work flow of the app is also a little bit confusing.  The good things is that the prototype we made using Figma is very easy to use and close to an actual app.**
 
 
 
@@ -144,3 +158,19 @@ Recommendation summary:
 * Focus on the shopping function of this app.
 * Simplify the checkout flow.
 * Improve clarity of labels, e.g. carbon emissions, calories, and price.
+
+
+
+**Reflection: our app has two major functions but most of our tasks focused on the first one and only two tasks was about the second one. This made some of our participants really confused. Besides, we should printed out our instructions for users, so it was more easy to read and follow. Fortunately, most of our users could understand our purposes in s short time. It would also be ideal to be able to test the app for an extended period of time with a small number of participating shops and students before launching it for everyone to use.**
+
+
+
+# Overall Reflections
+
+* In this class, I experienced the whole process from understanding a question to figure our a solution. Some investigation methods such as field study and affinity diagram offer me new tools to understand the problem.
+* The solution that come at the first place are not always a good one. I need to analyze the problem in various way before I start to think about solutions.
+* I need to combine both convergent thinking and divergent thinking in this process. I needs to adjusts my thoughts depends on which stage I'm in. Opening to different opinions is helpful to get more insights and focus on some results is helpful to dig out the requirements.
+* The ability to re-frame a problem is an important ability. It is based on the deep understands of a problem. It is necessary to get the real solution not the most obvious one.
+* It is almost impossible to come up with a good solution at the first glance, so the iteration is very important. Imperfection is norm and we should be comfortable with it.
+* Everyone thinks and works in a different way. I need to understand other people's ways to collaborate with them more effectively.
+
