@@ -10,9 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-group :test do
-  gem "html-proofer", "~> 3.18"
-end
+
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
