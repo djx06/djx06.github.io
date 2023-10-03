@@ -9,13 +9,17 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+group :test do
+  gem "html-proofer", "~> 3.18"
+end
+
 gem "github-pages", group: :jekyll_plugins
-gem 'html-proofer'
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
+# gem "jekyll", "~> 3.1"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
