@@ -1,7 +1,7 @@
 ---
 title: "GazeReader: Detecting Unknown Word Using Webcam for English as a Second Language (ESL) Learners."
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2023-04-23-gazereader
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2023-04-23
 venue: 'Journal 1'
