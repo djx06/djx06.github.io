@@ -9,6 +9,7 @@ paperurl: 'http://djx06.github.io/files/paper3_gazereader2.pdf'
 citation: 'Jiexin Ding*, Bowen Zhao*, Rui Hao, Yuntao Wang, Ishan Chatterjee, and Yuanchun Shi. 2024. Facilitating Gaze-based Unknown Word Detection Using Pre-trained Language Models (PLMs).'
 ---
 <!-- This paper is about the number 3. The number 4 is left for future work. -->
+Under reviewing.
 
 [Download paper here](http://djx06.github.io/files/paper3_gazereader2.pdf)
 

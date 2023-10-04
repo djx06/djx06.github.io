@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Tracking Head Position and Orientation Using Acoustic Ranging"
+excerpt: "1: FaceOri tracks user’s face orientation towards the device with acoustic ranging using microphones in an earphone. <br/><img src='/images/faceori/intro_new.png'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Ad-hoc Ultrasonic Ranging Method and Applications"
+excerpt: "1: AcousLink enables ad-hoc calibration-free unltrasonic ranging via bluetooth. <br/><img src='/images/faceori/intro_new.png'>"
 collection: portfolio
 ---
 
