@@ -10,7 +10,7 @@ redirect_from:
 
 I am a master student in an information science dual degree program jointly founded by University of Washington and Tsinghua University. My main research interests are ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic sensing, finger gesture sensing and using language model to assist language leanring at Ubicomp Lab in University of Washington. My expected graduation date is March 2024.
 
-Before I joining this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree.
+Before I joining this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree.1
 
 <!-- A data-driven personal website
 ======
