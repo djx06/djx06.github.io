@@ -1,6 +1,6 @@
 ---
 title: "Tracking Head Position and Orientation Using Acoustic Ranging"
-excerpt: "1: FaceOri tracks user’s face orientation towards the device with acoustic ranging using microphones in an earphone. <br/><img src='/images/faceori/intro_new.png'>"
+excerpt: "FaceOri tracks user’s face orientation towards the device with acoustic ranging using microphones in an earphone. <br/><img src='/images/faceori/intro_new.png'>"
 collection: portfolio
 ---
 

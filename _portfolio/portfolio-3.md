@@ -1,6 +1,6 @@
 ---
 title: "Ad-hoc Ultrasonic Ranging Method and Applications"
-excerpt: "1: AcousLink enables ad-hoc calibration-free unltrasonic ranging via bluetooth. <br/><img src='/images/faceori/intro_new.png'>"
+excerpt: "AcousLink enables ad-hoc calibration-free unltrasonic ranging via bluetoot. <br/><img src='/images/faceori/intro_new.png'>"
 collection: portfolio
 ---
 
