@@ -41,7 +41,7 @@ Skills
 * Programming skills: C/C++, Python, Java, ML/AI (Pytorch, Tensorflow), front end (JavaScript, React), VR/AR (Unity3D), Android, firmware development (serial: UART, I2C, SPI, I2S; wireless: Bluetooth, BLE).
 * Electrical engineering skills: oscilloscope, function generator, logic analyzer, multimeter, soldering.
 
-[Download CV here](http://djx06.github.io/files/Jiexin Ding_CV_phd.pdf)
+[Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
   
 <!-- Talks
 ======
