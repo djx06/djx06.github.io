@@ -11,38 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Master of Science in Technology Innovation, University of Washington, Mar. 2024 (expected)
+* Master of Engineering in Data Science and Information Technology, Tsinghua University, June 2024 (expected)
+* Bachelor of Engineering in Computer Science and Technology, Tsinghua University, June 2021
+* Bachelor of Art in Product Design (Second Degree), Tsinghua University, June 2020
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Work experience
+======
+* June 2020 - Present: Research Assistant
+  * Pervasive HCI (PI) Lab, Tsinghua University
+  * Supervisor: Prof. Yuanchun Shi, Prof. Yuntao Wang
+
+* Sept. 2022 - Present: Research Assistant
+  * Ubiquitous Lab, University of Washington
+  * Supervisor: Prof. Shwetak Patel, Ishan Chatterjee
+
+* Autumn 2022: Teaching Assistant
+  * Global Innovation Exchange, Tsinghua University
+  * Essentials to Signal Processing and Data Management for AIoT Applications
   
-Talks
+Skills
+======
+* Programming skills: C/C++, Python, Java, ML/AI (Pytorch, Tensorflow), front end (JavaScript, React), VR/AR (Unity3D), Android, firmware development (serial: UART, I2C, SPI, I2S; wireless: Bluetooth, BLE).
+* Electrical engineering skills: oscilloscope, function generator, logic analyzer, multimeter, soldering.
+  
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -56,4 +55,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
