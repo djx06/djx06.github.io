@@ -3,7 +3,7 @@ title: "Demo of Z-Ring: Context-Aware Subtle Input Using Single-Point Bio-Impeda
 collection: publications
 permalink: /publication/2023-10-29-ZRingDemo
 # excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2023-10-129
+date: 2023-10-29
 venue: 'UIST'
 paperurl: 'http://djx06.github.io/files/paper4_ZRingDemo.pdf'
 citation: 'Anandghan Waghmare, Jiexin Ding, Ishan Chatterjee, and Shwetak Patel. 2023. Demo of Z-Ring: Context-Aware Subtle Input Using Single-Point Bio-Impedance Sensing. In Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST 23 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 79, 1–3. https://doi.org/10.1145/3586182.3615809'
