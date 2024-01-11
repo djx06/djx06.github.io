@@ -22,12 +22,12 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Under review papaer
+Under Review Papers
 ======
 * Ishan Chatterjee\*, Jiexin Ding\*, Anandghan Waghmare\*, Joseph Breda, Yuquan Deng, Bo Liu, Yuntao Wang, and Shwetak Patel. FlowRing: In-Air Microgestures and On-Surface Interaction with an Opto-Acoustic Ring. Submitted to IMWUT 24.
 * Jiexin Ding\*, Bowen Zhao\*, Rui Hao, Yuntao Wang, Ishan Chatterjee, and Yuanchun Shi. 2024. Facilitating Gaze-based Unknown Word Detection Using Pre-trained Language Models (PLMs). Submitted to In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI 24).
 
-Work experience
+Work Experience
 ======
 * June 2020 - Present: Research Assistant
   * Pervasive HCI (PI) Lab, Tsinghua University

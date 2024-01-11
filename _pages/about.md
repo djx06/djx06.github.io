@@ -8,9 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a master student in an information science dual degree program jointly founded by University of Washington and Tsinghua University. My main research interests are ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic sensing, finger gesture sensing and using language model to assist language leanring at Ubicomp Lab in University of Washington. My expected graduation date is March 2024.
+I am a master student in an information science dual degree program jointly founded by University of Washington and Tsinghua University. My expected graduation date is March 2024. Before this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree. 
 
-Before I joining this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree.
+My main research interests lay in ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic ranging, microgesture sensing and using language model to assist language learning at Ubicomp Lab at University of Washington and Pervasive HCI Lab at Tsinghua University. 
+
+My interdisciplinary background in computer science and product design drives me to explore natural and efficient interaction technology from a human-centered perspective. Recently, I also ventured to interpret behavioral data using language models to facilitate interactions, inspired by the proven efficacy of GPT in processing sequential data. My research goal is to develop novel interaction technology by understanding and leveraging natural human behavior. This goal involves three stages:
+* Model human behavior in emerging scenarios such as AR/VR and multi-device scenarios to discover natural ways of interaction.
+* Build new sensing hardware and algorithms to track these natural behaviors precisely.
+* Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people.
+
 
 <!-- A data-driven personal website
 ======
@@ -21,11 +27,11 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
