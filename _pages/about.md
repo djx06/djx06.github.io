@@ -10,12 +10,18 @@ redirect_from:
 
 I am a master student in an information science dual degree program jointly founded by University of Washington and Tsinghua University. My expected graduation date is March 2024. Before this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree. 
 
-My main research interests lay in ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic ranging, microgesture sensing and using language model to assist language learning at Ubicomp Lab at University of Washington and Pervasive HCI Lab at Tsinghua University. 
+My research interests lay in ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic ranging, microgesture sensing and using language model to assist language learning at Ubicomp Lab at University of Washington and Pervasive HCI Lab at Tsinghua University. 
+
+<img src='/images/experience.png'>
 
 My interdisciplinary background in computer science and product design drives me to explore natural and efficient interaction technology from a human-centered perspective. Recently, I also ventured to interpret behavioral data using language models to facilitate interactions, inspired by the proven efficacy of GPT in processing sequential data. My research goal is to develop novel interaction technology by understanding and leveraging natural human behavior. This goal involves three stages:
 * Model human behavior in emerging scenarios such as AR/VR and multi-device scenarios to discover natural ways of interaction.
 * Build new sensing hardware and algorithms to track these natural behaviors precisely.
 * Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people.
+
+[Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf)
+
+[Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
 
 
 <!-- A data-driven personal website

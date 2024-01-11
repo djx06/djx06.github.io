@@ -17,16 +17,16 @@ Face orientation can often indicate users’ intended interaction target. In thi
 * An exploration of the application space afforded by FaceOri with prototypes of selected demonstrative experiences, showcasing the applicability of the proposed approach.
 
 # Method
-## Software
+### Software
 FaceOri can enable continuous head position and orientation tracking (A) with FMCW-based acoustic ranging or binarized attention classification without calibration (B).
 <img src='/images/faceori/software.png'>
 
-## Hardware
+### Hardware
 FaceOri’s earphone hardware has a commodity earphone hardware (MPOW H19 for demonstration), an MPU-9250 IMU, an audio interface, and a laptop to process the audio signal.
 <img src='/images/faceori/hardware_imp.jpg'>
 
 # Results
-## Tracking Accuracy (median absolute error)
+### Tracking Accuracy (median absolute error)
 FaceOri can continuously track the user’s head orientation with a median absolute error of 10.9 mm in the distance, 3.7◦ in yaw, and 5.8◦ in pitch. 
 
 |          | FaceOri | CAT (SOTA) |
@@ -35,9 +35,9 @@ FaceOri can continuously track the user’s head orientation with a median absol
 | Pitch    | 5.8°    | 11.6°      |
 | Distance | 10.9 mm | 42.0 mm    |
 
-## Binary Classification Accuracy: 93.5%
+### Binary Classification Accuracy: 93.5%
 
-## Dropped Frames
+### Dropped Frames
 FaceOri is more robust against the non-LOS and Doppler effect introduced by the head motion.
 <img src='/images/faceori/drop_frame.png'>
 

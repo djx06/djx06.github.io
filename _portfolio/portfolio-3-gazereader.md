@@ -22,7 +22,7 @@ As non-native speakers learn a new language, encountering words outside one's vo
 <img src='/images/gazereader/method.png'>
 
 # Results
-## Main Result
+### Main Result
 * The accuracy is 97.6% and the F1-score is 71.1%, which is higher than the state-of-arts. 
 * The accuracy on less precise webcam-based gaze data  is 97.3%, showing the robustness of our method.
 
@@ -37,7 +37,7 @@ As non-native speakers learn a new language, encountering words outside one's vo
 | Eye tracker | Our Method          | **97.6** | **71.1** | **63.3**  | **79.0** |
 | Webcam      | Our Method          | 97.3     | 65.1     | 60.3      | 69.7     |
 
-## Ablation Study
+### Ablation Study
 * It is efficient to use PLMs for better capturing the contextual information of the documents.
 * Gaze patterns help identify whether a difficult word is an unknown word.
 
@@ -48,7 +48,7 @@ As non-native speakers learn a new language, encountering words outside one's vo
 | w/o gaze encoding       | 97.5     | 68.5     | 63.5      | 74.4   |
 | w/o knowledge embedding | 97.6     | 69.2     | 68.4      | 70.0   |
 
-## Cross-User Generalizability 
+### Cross-User Generalizability 
 * The efficacy of PLMs comes from their internal knowledge of identifying tokens in difficult words.
 * Over-relying on this factor weaken our method's performance in cross-user settings.
 

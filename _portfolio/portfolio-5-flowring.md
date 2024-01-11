@@ -16,15 +16,15 @@ FlowRing enables both quick, discreet in-air microgestures (left) and precise on
 * A 13-person user study demonstrating the effectiveness of FlowRing’s microgesture input capabilities across users with different hand sizes and skin tones and a Fitts’ evaluation of continuous 2D surface interaction.
   
 # Method
-## High-level State Architecture
+### High-level State Architecture
 A gating classifier rejects false positives from daily tasks and determines if the user performed a gesture or is holding their hand in a mouse-like configuration over a surface. If it is a gesture, the discrete gesture classifier then determines the type of gesture. If it is a mouse-like action, the gating model then can engage a continuous 2D on-surface tracking scheme.
 <img src='/images/flowring/states.png'>
 
-## Mouse State of 2D Surface Tracking
+### Mouse State of 2D Surface Tracking
 State diagram of 2D surface interaction for cursor control. Transition conditions are listed next to the arrows.
 <img src='/images/flowring/cursor_state_diagram.png'>
 
-## Gating Model & Discrete Gesture Classification
+### Gating Model & Discrete Gesture Classification
 This model contains 3 2D CNN layers followed by a MaxPooling layer and an LSTM layer. Then the fully connected layer and softmax are applied.
 <img src='/images/flowring/gesture_processing.png'>
 <img src='/images/flowring/gesture_model.png'>

@@ -4,6 +4,8 @@ excerpt: "<br/><img src='/images/readeasy/wireframe.png'>"
 collection: portfolio
 ---
 
+This is our student-led launch project for my master degree at UW.
+
 Problem Statement
 ======
 Reading scholarly publications is a major challenge for ESL learners, which has a negative impact on their understanding and may even be harmful to their long-term academic success. Hence, we aim to make it easier for ESL students to better their comprehension.
