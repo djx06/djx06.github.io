@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the ECE department at the University of Washington advised by Prof, Akshay Gadre and Prof. Shwetak Patel. I got my master's degree in an information science dual degree program jointly founded by the University of Washington and Tsinghua University in 2024. Before this master's program, I got my B.S. in Computer Science at Tsinghua University in 2021. I also got a B.A. in Product Design as a second degree. 
+I am a PhD student in the ECE department at the University of Washington advised by Prof. Akshay Gadre and Prof. Shwetak Patel. I got my master's degree in an information science dual degree program jointly founded by the University of Washington and Tsinghua University in 2024. Before this master's program, I got my B.S. in Computer Science at Tsinghua University in 2021. I also got a B.A. in Product Design as a second degree. 
 
 My research interests lie in ubiquitous computing, wireless sensing, and human-centered AI. Specifically, I am doing research in attention-guided personalized LLM prompts, gesture sensing, and acoustic ranging at the Ubicomp Lab at the University of Washington and the Pervasive HCI Lab at Tsinghua University. 
 
