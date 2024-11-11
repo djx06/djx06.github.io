@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a master student in an information science dual degree program jointly founded by University of Washington and Tsinghua University. My expected graduation date is March 2024. Before this master program, I got my B.S in Computer Science in Tsinghua University in 2021. I also got a B.A in Prodcut Design as a second degree. 
+I am a PhD student in the ECE department at the University of Washington advised by Prof, Akshay Gadre and Prof. Shwetak Patel. I got my master's degree in an information science dual degree program jointly founded by the University of Washington and Tsinghua University in 2024. Before this master's program, I got my B.S. in Computer Science at Tsinghua University in 2021. I also got a B.A. in Product Design as a second degree. 
 
-My research interests lay in ubiqitous computing, health sensing, and using language model to facilitate sensing. Specifically, I am doing research in acoustic ranging, microgesture sensing and using language model to assist language learning at Ubicomp Lab at University of Washington and Pervasive HCI Lab at Tsinghua University. 
+My research interests lie in ubiquitous computing, wireless sensing, and human-centered AI. Specifically, I am doing research in attention-guided personalized LLM prompts, gesture sensing, and acoustic ranging at the Ubicomp Lab at the University of Washington and the Pervasive HCI Lab at Tsinghua University. 
 
 <img src='/images/experience.png'>
 
@@ -19,10 +19,14 @@ My interdisciplinary background in computer science and product design drives me
 * Build new sensing hardware and algorithms to track these natural behaviors precisely.
 * Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people.
 
-[Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf)
+<!-- [Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf) -->
 
 [Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
 
+**Recent Projects**
+<video controls width="600">
+  <source src="https://www.youtube.com/watch?v=S-qsTzXQv2o" type="video/mp4">
+</video>
 
 <!-- A data-driven personal website
 ======

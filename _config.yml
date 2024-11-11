@@ -9,7 +9,7 @@ github: [metadata]
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiexin Ding/About me"
+title                    : "Jiexin Ding"
 title_separator          : "-"
 name                     : &name "Jiexin Ding"
 description              : &description "personal description"
