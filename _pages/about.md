@@ -21,12 +21,21 @@ My interdisciplinary background in computer science and product design drives me
 
 <!-- [Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf) -->
 
-[Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
 
 **Recent Projects**
 
+EnWord: Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ynx4yIN_hLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+FlowRing: Integrating Microgestures and Surface Interaction for Seamless XR Input.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mz0XIEK4Cz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S-qsTzXQv2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+[Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
 
 <!-- A data-driven personal website
 ======
