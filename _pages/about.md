@@ -24,9 +24,12 @@ My interdisciplinary background in computer science and product design drives me
 [Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
 
 **Recent Projects**
-<video controls width="600">
+<!-- <video controls width="600">
   <source src="https://www.youtube.com/watch?v=S-qsTzXQv2o" type="video/mp4">
-</video>
+</video> -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=S-qsTzXQv2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 <!-- A data-driven personal website
 ======
