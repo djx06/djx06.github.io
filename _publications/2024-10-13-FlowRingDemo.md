@@ -6,7 +6,7 @@ permalink: /publication/2024-10-13-flowringdemo
 date: 2024-10-13
 venue: 'UIST'
 paperurl: 'http://djx06.github.io/files/paper5_FlowRingDemo.pdf'
-citation: 'Jiexin Ding, Ishan Chatterjee, Alexander Ching, Anandghan Waghmare, and Shwetak Patel. 2024. Demo of FlowRing: Seamless Cross-Surface Interaction via Opto-Acoustic Ring. In Adjunct Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '24). Association for Computing Machinery, New York, NY, USA, Article 40, 1–3.'
+citation: 'Jiexin Ding, Ishan Chatterjee, Alexander Ching, Anandghan Waghmare, and Shwetak Patel. 2024. Demo of FlowRing: Seamless Cross-Surface Interaction via Opto-Acoustic Ring. In Adjunct Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct 24). Association for Computing Machinery, New York, NY, USA, Article 40, 1–3.'
 ---
 <!-- This paper is about the number 3. The number 4 is left for future work. -->
 
