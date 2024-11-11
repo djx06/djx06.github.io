@@ -35,7 +35,7 @@ FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earp
 
 
 
-[Download CV here](http://djx06.github.io/files/Jiexin_Ding_CV_phd.pdf)
+[Download CV here](http://djx06.github.io/files/Resume_Jiexin_Ding_research.pdf)
 
 <!-- A data-driven personal website
 ======
