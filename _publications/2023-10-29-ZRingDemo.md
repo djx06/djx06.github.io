@@ -13,9 +13,8 @@ citation: 'Anandghan Waghmare, Jiexin Ding, Ishan Chatterjee, and Shwetak Patel.
 This paper presents Z-Ring, a novel wearable device that uses radio frequency (RF) based sensing to offer unique capabilities for human-computer interaction, including subtle input, object recognition, user identification, and passive surface interaction. With only a single sensing modality, Z-Ring achieves diverse and concurrent interactions that can enhance the user experience. We illustrate the potential of Z-Ring to enable seamless context-aware interactions via a custom music player application. In the future, we plan to expand Z-Ring’s functionality with user customization and explore usage for additional applications.
 
 My contributions:
-* Implemented the BLE transmission and acoustic data reading from the contact microphone on Seeed Xiao.
-* Built a CNN+LSTM model to detect mircogestures. It achieved a gesture recognition accuracy of 92.7% across sessions and an accuracy of 84.0% across users, rising to 93.0% with four gesture examples.
-* Detected index finger rubbing against a surface by a multithreaded application to enable on-surface tracking.
+* Developed a music player demo to show that the ring can enable context-aware interactions.
+* Conducted the user study and trained the gesture classification model.
 
 
 [Download paper here](http://djx06.github.io/files/paper4_ZRingDemo.pdf)

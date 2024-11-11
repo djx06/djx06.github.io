@@ -1,5 +1,5 @@
 ---
-title: "FlowRing: In-Air Microgestures and On-Surface Interaction with an Opto-Acoustic Ring"
+title: "FlowRing: Integrating Microgestures and Surface Interaction for Seamless XR Input"
 excerpt: "FlowRing enables both quick, discreet in-air microgestures (left) and precise on-surface interactions (right), allowing for always-available, ad-hoc interactions. Such a peripheral could control wearable devices quickly like changing earbud volume while on-the-go or be used to control an immersive desktop environment in a mixed reality headset.<br/><img src='/images/flowring/intro.png'>"
 collection: portfolio
 ---

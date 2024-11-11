@@ -1,5 +1,5 @@
 ---
-title: "ReadEaSy: A personalized web-app for ESL students to read and learn academic contents more efficiently and effectively"
+title: "ReadEaSy: A Personalized Web-App for ESL Students to Read and Learn Academic Contents More Efficiently and Effectively"
 excerpt: "<br/><img src='/images/readeasy/wireframe.png'>"
 collection: portfolio
 ---
