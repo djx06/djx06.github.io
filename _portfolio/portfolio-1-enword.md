@@ -1,6 +1,6 @@
 ---
 title: "EnWord: Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models"
-excerpt: "This paper presents a transformer-based machine learning model that aligns gaze trajectory with corresponding text and decodes the probability of unknown words within the text in real time with high precision. <br/><img src='/images/enword/demo_clip.gif'>"
+excerpt: "This paper presents a transformer-based machine learning model that aligns gaze trajectory with corresponding text and decodes the probability of unknown words within the text in real time with high precision. <br/><img src='/images/enword/demo_clip2.gif'>"
 collection: portfolio
 ---
 

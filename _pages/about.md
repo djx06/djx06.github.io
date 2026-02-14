@@ -8,23 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the ECE department at the University of Washington advised by Prof. Akshay Gadre and Prof. Shwetak Patel. I got my master's degree in an information science dual degree program jointly founded by the University of Washington and Tsinghua University in 2024. Before this master's program, I got my B.S. in Computer Science at Tsinghua University in 2021. I also got a B.A. in Product Design as a second degree. 
+I am a PhD student in the Department of Electrical & Computer Engineering at the University of Washington, advised by Prof. Akshay Gadre and Prof. Shwetak Patel. I received my master’s degree in Information Science from a dual-degree program between the University of Washington and Tsinghua University in 2024. Prior to that, I earned my B.S. in Computer Science from Tsinghua University in 2021, along with a second bachelor’s degree (B.A.) in Product Design.
 
-My research interests lie in ubiquitous computing, wireless sensing, and human-centered AI. Specifically, I am doing research in attention-guided personalized LLM prompts, gesture sensing, and acoustic ranging at the Ubicomp Lab at the University of Washington and the Pervasive HCI Lab at Tsinghua University. 
+My research in human-computer interaction and applied AI/ML focuses on developing multimodal sensor-fusion systems to understand user attention, cognition, and interaction. I fine-tune LLMs to process time-series sensor data from eye-tracking devices and wearables to enable personalized and context-aware experiences. I build end-to-end systems, including gaze-aware summarizers and reading assistants. Previously, I worked on gesture sensing and acoustic ranging in the Pervasive HCI Lab at Tsinghua University, advised by Prof. Yuanchun Shi and Prof. Yuntao Wang.
 
-<img src='/images/experience.png'>
+<!-- My research interests lie in ubiquitous computing, wireless sensing, and human-centered AI. Specifically, I am doing research in attention-guided personalized LLM prompts, gesture sensing, and acoustic ranging at the Ubicomp Lab at the University of Washington and the Pervasive HCI Lab at Tsinghua University.  -->
 
-My interdisciplinary background in computer science and product design drives me to explore natural and efficient interaction technology from a human-centered perspective. Recently, I also ventured to interpret behavioral data using language models to facilitate interactions, inspired by the proven efficacy of GPT in processing sequential data. My research goal is to develop novel interaction technology by understanding and leveraging natural human behavior. This goal involves three stages:
+<img src='/images/experience_2026.png'>
+
+<!-- My interdisciplinary background in computer science and product design drives me to explore natural and efficient interaction technology from a human-centered perspective. Recently, I also ventured to interpret behavioral data using language models to facilitate interactions, inspired by the proven efficacy of GPT in processing sequential data. My research goal is to develop novel interaction technology by understanding and leveraging natural human behavior. This goal involves three stages:
 * Model human behavior in emerging scenarios such as AR/VR and multi-device scenarios to discover natural ways of interaction.
 * Build new sensing hardware and algorithms to track these natural behaviors precisely.
-* Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people.
+* Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people. -->
 
 <!-- [Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf) -->
 
 
 **Recent Projects**
 
-EnWord: Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models.
+Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ynx4yIN_hLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 FlowRing: Integrating Microgestures and Surface Interaction for Seamless XR Input.
@@ -35,7 +37,7 @@ FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earp
 
 
 
-[Download CV here](http://djx06.github.io/files/Resume_Jiexin_Ding_research.pdf)
+[Download CV here](http://djx06.github.io/files/CV_Jiexin_Ding_2026_intern1.pdf)
 
 <!-- A data-driven personal website
 ======
