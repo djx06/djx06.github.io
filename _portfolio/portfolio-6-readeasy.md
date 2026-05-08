@@ -3,8 +3,7 @@ title: "ReadEaSy: A Personalized Web-App for ESL Students to Read and Learn Acad
 excerpt: "<br/><img src='/images/readeasy/wireframe.png'>"
 collection: portfolio
 ---
-
-This is our student-led launch project for my master degree at UW.
+<img src='/images/enword/demo_clip2.gif'>
 
 Problem Statement
 ======
