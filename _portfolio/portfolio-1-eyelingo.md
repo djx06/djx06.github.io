@@ -32,12 +32,6 @@ The model consists of three parts. Linguistic characteristics of the target word
 Our model achieves impressive results on the data collected using an eye tracker. The accuracy is 97.6% and the F1-score is 71.1%. The average inference latency of the model is 0.036 seconds in the CPU setting, indicating that our method can support real-time applications. To demonstrate the robustness of our method, we applied our method to another dataset collected with a relatively inaccurate webcam-based eye-tracking system. Even when tested with less precise webcam-based data, the model still achieves an accuracy of 97.3% and an F1-score of 65.1%, opening the potential for more accessible solutions than previously possible.
 <img src='/images/enword/main_result.png'>
 
-|          | FaceOri | CAT (SOTA) |
-|----------|---------|------------|
-| Yaw      | 3.7°    | 11.0°      |
-| Pitch    | 5.8°    | 11.6°      |
-| Distance | 10.9 mm | 42.0 mm    |
-
 ### Contribution of Gaze
 Then we analyzed the contribution of gaze and PLM. The low Jaccard similarity score indicates that different users have different unknown words even when reading the same document. We cannot identify differences between users only relying on textual information, so it is necessary to use user-dependent gaze features. In the ablation study,  the recall drops from 79.0% to 74.4% when removing the gaze. This phenomenon implies that gaze are helpful for identifying an individual’s unknown words based on the user’s unique behaviors and patterns. The result from the case study also shows that gaze provides user-dependent and timely information to detect unknown words for different users. 
 <img src='/images/enword/gaze.png'>

@@ -8,72 +8,108 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Department of Electrical & Computer Engineering at the University of Washington, advised by Prof. Akshay Gadre and Prof. Shwetak Patel. I received my master’s degree in Information Science from a dual-degree program between the University of Washington and Tsinghua University in 2024. Prior to that, I earned my B.S. in Computer Science from Tsinghua University in 2021, along with a second bachelor’s degree (B.A.) in Product Design.
+<style>
+.proj-list { margin-top: 0.5em; }
+.proj-row { display: flex; gap: 1.4em; align-items: flex-start; padding: 1.1em 0; border-bottom: 1px solid #e5e5e5; }
+.proj-row:last-child { border-bottom: none; }
+.proj-media { flex: 0 0 40%; max-width: 40%; }
+.proj-media img { width: 100%; border-radius: 6px; border: 1px solid #eee; display: block; }
+.proj-media .video { position: relative; width: 100%; aspect-ratio: 16 / 9; }
+.proj-media .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 6px; }
+.proj-info { flex: 1; min-width: 0; font-size: 0.85em; line-height: 1.5; }
+.proj-title { font-weight: 700; font-size: 1.05em; margin: 0 0 0.2em; }
+.proj-title a { text-decoration: none; }
+.proj-authors { color: #555; margin: 0 0 0.15em; }
+.proj-venue { font-style: italic; color: #333; margin: 0 0 0.45em; }
+.proj-badge { display: inline-block; font-style: normal; font-size: 0.8em; font-weight: 700; color: #b3261e; border: 1px solid #b3261e; border-radius: 4px; padding: 0 0.4em; margin-left: 0.3em; }
+.proj-desc { margin: 0 0 0.45em; }
+.proj-links a { margin-right: 0.9em; font-weight: 600; }
+@media (max-width: 700px) {
+  .proj-row { flex-direction: column; }
+  .proj-media { flex: none; max-width: 100%; width: 100%; }
+}
+</style>
 
-My research in human-computer interaction and applied AI/ML focuses on developing multimodal sensor-fusion systems to understand user attention, cognition, and interaction. I fine-tune LLMs to process time-series sensor data from eye-tracking devices and wearables to enable personalized and context-aware experiences. I build end-to-end systems, including gaze-aware summarizers and reading assistants. Previously, I worked on gesture sensing and acoustic ranging in the Pervasive HCI Lab at Tsinghua University, advised by Prof. Yuanchun Shi and Prof. Yuntao Wang.
+I am a PhD student in the Department of Electrical & Computer Engineering at the University of Washington, advised by Prof. Akshay Gadre and Prof. Shwetak Patel. I received my master’s degree in Information Science from a dual-degree program between the University of Washington and Tsinghua University in 2024. Prior to that, I earned my B.E. in Computer Science from Tsinghua University in 2021, along with a second bachelor’s degree (B.A.) in Product Design.
 
-<!-- My research interests lie in ubiquitous computing, wireless sensing, and human-centered AI. Specifically, I am doing research in attention-guided personalized LLM prompts, gesture sensing, and acoustic ranging at the Ubicomp Lab at the University of Washington and the Pervasive HCI Lab at Tsinghua University.  -->
+My research lies at the intersection of **multimodal LLMs** and **human-computer interaction**. I post-train LLMs/VLMs with supervised fine-tuning and reinforcement learning (GRPO) to understand and model human behavior from **eye tracking** and **wearable sensing**, enabling personalized, context-aware AI assistants — for example, modeling human visual search with a VLM ([VLGaze](https://drive.google.com/file/d/1diBcZHLuZOglUQNKuy4ITRXfikHLhld4/view?usp=sharing)) and using gaze as an implicit prompt for LLM personalization ([GazeSummary](https://dl.acm.org/doi/abs/10.1145/3789514.3792037)). I also build benchmarks and retrieval methods for **LLM agents** that reason over long-horizon, heterogeneous, and evolving context: as an Applied Scientist Intern at Microsoft (Copilot, Agents & Platform), I built [PULSE](https://arxiv.org/abs/2611.28374), a benchmark for persistent project-state understanding of enterprise agents. Previously, I worked on gaze-based reading assistance, wearable XR input, and acoustic sensing in the Ubicomp Lab at UW and the Pervasive HCI Lab at Tsinghua University, advised by Prof. Yuanchun Shi and Prof. Yuntao Wang.
 
-<img src='/images/experience_2026.png'>
+**I am looking for research internships (Research Scientist / Applied Scientist) for Summer 2027. Feel free to reach out!**
 
-<!-- My interdisciplinary background in computer science and product design drives me to explore natural and efficient interaction technology from a human-centered perspective. Recently, I also ventured to interpret behavioral data using language models to facilitate interactions, inspired by the proven efficacy of GPT in processing sequential data. My research goal is to develop novel interaction technology by understanding and leveraging natural human behavior. This goal involves three stages:
-* Model human behavior in emerging scenarios such as AR/VR and multi-device scenarios to discover natural ways of interaction.
-* Build new sensing hardware and algorithms to track these natural behaviors precisely.
-* Develop novel interactions based on these natural behaviors, facilitate interactions with NLP tools, and apply these interactions to health, education, and beyond to benefit more people. -->
+<img src='/images/research_overview.png' alt='Overview of my research: human behavior modeling with LLMs/VLMs, LLM agents and benchmarks, gaze-aware reading assistants, XR and wearable input, and attention sensing.'>
 
-<!-- [Download SOP here](http://djx06.github.io/files/SOP_Jiexin_Ding_final.pdf) -->
+## Selected Projects
 
+<div class="proj-list">
 
-**Recent Projects**
+<div class="proj-row">
+  <div class="proj-media"><a href="https://arxiv.org/abs/2611.28374"><img src="/images/projects/pulse.png" alt="PULSE worked example: linking a promise to its fulfillment, project-state snapshots, and an employee's stale view" loading="lazy"></a></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://arxiv.org/abs/2611.28374">Taking the PULSE of Enterprise Workflows: Evaluating Persistent Project-State Understanding</a></p>
+    <p class="proj-authors"><b>Jiexin Ding</b>, Lin Ai, Adam Davies, Scott Counts</p>
+    <p class="proj-venue">Preprint, 2026 · Work done at Microsoft</p>
+    <p class="proj-desc">A benchmark of 1,573 questions over 30 enterprise project histories testing whether agents know what is still open, what changed, and what each collaborator has (not) seen. Retrieval is the largest bottleneck, but explicit project state adds substantial gains even with gold evidence.</p>
+    <p class="proj-links"><a href="https://arxiv.org/abs/2611.28374">Paper</a><a href="/portfolio/portfolio-01-pulse/">Project</a></p>
+  </div>
+</div>
 
-Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ynx4yIN_hLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="proj-row">
+  <div class="proj-media"><a href="https://drive.google.com/file/d/1diBcZHLuZOglUQNKuy4ITRXfikHLhld4/view?usp=sharing"><img src="/images/projects/vlgaze.png" alt="VLGaze: a VLM policy samples a group of scanpaths, each rewarded for resembling humans and penalized for resembling other samples" loading="lazy"></a></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://drive.google.com/file/d/1diBcZHLuZOglUQNKuy4ITRXfikHLhld4/view?usp=sharing">VLGaze: Modeling Human Visual Search with Accuracy and Natural Behavioral Variability</a></p>
+    <p class="proj-authors"><b>Jiexin Ding</b>, Xinyun Liu, Ruotong Yu, Zhihan Zhang, Yuntao Wang, Shwetak Patel, Yue Jiang, Akshay Gadre</p>
+    <p class="proj-venue">Under review, 2026</p>
+    <p class="proj-desc">Post-trains a VLM with SFT and GRPO using a distribution-matching reward. VLGaze achieves state-of-the-art distributional metrics on COCO-Search18 while matching or beating all baselines on accuracy, with a tunable accuracy-variability trade-off.</p>
+    <p class="proj-links"><a href="https://drive.google.com/file/d/1diBcZHLuZOglUQNKuy4ITRXfikHLhld4/view?usp=sharing">Paper</a><a href="/portfolio/portfolio-02-vlgaze/">Project</a></p>
+  </div>
+</div>
 
-FlowRing: Integrating Microgestures and Surface Interaction for Seamless XR Input.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mz0XIEK4Cz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="proj-row">
+  <div class="proj-media"><a href="https://dl.acm.org/doi/abs/10.1145/3789514.3792037"><img src="/images/projects/gazesummary.png" alt="GazeSummary: a gaze heatmap is fed to an LLM to produce a personalized summary" loading="lazy"></a></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://dl.acm.org/doi/abs/10.1145/3789514.3792037">GazeSummary: Exploring Gaze as an Implicit Prompt for Personalization in Text-based LLM Tasks</a></p>
+    <p class="proj-authors"><b>Jiexin Ding</b>, Yizhuo Zhang, Xinyun Liu, Ke Chen, Yuntao Wang, Shwetak Patel, Akshay Gadre</p>
+    <p class="proj-venue">HotMobile 2026</p>
+    <p class="proj-desc">Uses gaze as an implicit prompt so LLMs can summarize what the reader actually cared about. Gaze heatmaps outperform other gaze representations and even explicit user prompts at the phrase level, with lower mental effort in a user study.</p>
+    <p class="proj-links"><a href="https://dl.acm.org/doi/abs/10.1145/3789514.3792037">Paper</a><a href="/portfolio/portfolio-03-gazesummary/">Project</a></p>
+  </div>
+</div>
 
-FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S-qsTzXQv2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="proj-row">
+  <div class="proj-media"><div class="video"><iframe src="https://www.youtube.com/embed/ynx4yIN_hLg" title="Unknown word detection video" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://dl.acm.org/doi/full/10.1145/3706598.3714181">Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models</a></p>
+    <p class="proj-authors"><b>Jiexin Ding</b>, Bowen Zhao, Yuntao Wang, Xinyun Liu, Rui Hao, Ishan Chatterjee, Yuanchun Shi</p>
+    <p class="proj-venue">CHI 2025</p>
+    <p class="proj-desc">A gaze-text transformer fused with a pre-trained language model detects unknown words in real time, reaching 97.6% accuracy (71.1 F1) and staying robust on webcam-based gaze.</p>
+    <p class="proj-links"><a href="https://dl.acm.org/doi/full/10.1145/3706598.3714181">Paper</a><a href="https://www.youtube.com/watch?v=ynx4yIN_hLg">Video</a><a href="/portfolio/portfolio-1-eyelingo/">Project</a></p>
+  </div>
+</div>
 
+<div class="proj-row">
+  <div class="proj-media"><div class="video"><iframe src="https://www.youtube.com/embed/mz0XIEK4Cz4" title="FlowRing video" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://dl.acm.org/doi/full/10.1145/3743706">FlowRing: Integrated Microgesture and Surface Interaction Ring for Versatile XR Input</a></p>
+    <p class="proj-authors">Ishan Chatterjee*, <b>Jiexin Ding*</b>, Anandghan Waghmare*, Joseph Breda, Yuquan Deng, Bo Liu, Yuntao Wang, Shwetak Patel</p>
+    <p class="proj-venue">MobileHCI 2025</p>
+    <p class="proj-desc">A ring fusing an optical flow sensor, contact microphone, and IMU for both microgestures and mouse-grade 2D surface input: 93.6% gesture accuracy across sessions and 90.1% on new users with only four examples.</p>
+    <p class="proj-links"><a href="https://dl.acm.org/doi/full/10.1145/3743706">Paper</a><a href="https://www.youtube.com/watch?v=mz0XIEK4Cz4">Video</a><a href="/portfolio/portfolio-2-flowring/">Project</a></p>
+  </div>
+</div>
 
+<div class="proj-row">
+  <div class="proj-media"><div class="video"><iframe src="https://www.youtube.com/embed/S-qsTzXQv2o" title="FaceOri video" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+  <div class="proj-info">
+    <p class="proj-title"><a href="https://dl.acm.org/doi/10.1145/3491102.3517698">FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones</a></p>
+    <p class="proj-authors">Yuntao Wang*, <b>Jiexin Ding*</b>, Ishan Chatterjee, Farshid Salemi Parizi, Yuzhou Zhuang, Yukang Yan, Shwetak Patel, Yuanchun Shi</p>
+    <p class="proj-venue">CHI 2022</p>
+    <p class="proj-desc">Tracks head position and orientation with ultrasonic ranging between a device's speaker and earphone microphones: 3.7° median yaw error and 93.5% accuracy in detecting whether the user faces the device.</p>
+    <p class="proj-links"><a href="https://dl.acm.org/doi/10.1145/3491102.3517698">Paper</a><a href="https://www.youtube.com/watch?v=S-qsTzXQv2o">Video</a><a href="/portfolio/portfolio-3-faceori/">Project</a></p>
+  </div>
+</div>
 
-[Download CV here](http://djx06.github.io/files/CV_Jiexin_Ding_2026_intern1.pdf)
+</div>
 
-<!-- A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+\* denotes equal contribution. See all papers on the [Publications](/publications/) page.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-6. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+[Download CV here](/files/Resume_Jiexin_Ding_research_1124.pdf)

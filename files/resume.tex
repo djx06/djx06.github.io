@@ -1,0 +1,420 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{etoolbox} % for conditionals
+\usepackage{enumitem}
+
+
+% for different jobs
+\newcommand{\total}{}
+\newcommand{\backend}{}
+\newcommand{\fullstack}{}
+\newcommand{\research}{}
+% \newcommand{\xinyun}{}
+\newcommand{\hci}{}
+% \newcommand{\ml}{}
+% \newcommand{\sde}{}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    % \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[5]{
+  \vspace{-1pt}
+  \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} {\textbf{#5}} & \textit{\small #4} \\
+    \end{tabular*}
+    \vspace{-5pt}
+}
+
+% Define project
+\newcommand{\project}[2]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\educationSubheading}[8]{
+  \vspace{-1pt}
+  \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} {\textbf{#5}} & \textit{\small #4} \\
+      \textit{\small#6} {\textbf{#8}} & \textit{\small #7} \\
+    \end{tabular*}
+    \vspace{-5pt}
+}
+
+\newcommand{\educationSubheadingNew}[8]{
+  \vspace{-1pt}
+  \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3}  & \textit{\small #4} \\
+      \textit{\small#5}  & \textit{\small #6} \\
+      \textit{\small#7}  & \textit{\small #8} \\
+    \end{tabular*}
+    \vspace{-5pt}
+}
+
+\newcommand{\HonorSubheading}[2]{
+  \vspace{-1pt}
+  \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\     
+    \end{tabular*}
+    \vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand{\ignore}[2]{\hspace{0in}#2} % This will ignore the content inside
+
+% Auto-numbered publication references.
+% Give each publication a \label{pub:key} in the Publications list (ordered latest -> oldest);
+% cite it anywhere with \pubref{pub:key}{url}. Numbers update automatically (compile twice).
+\newcommand{\pubref}[2]{\href{#2}{\ref*{#1}}}
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Jiexin Ding}} & Email : \href{mailto:jxding17@gmail.com}{jxding@uw.edu}\\
+  \href{https://djx06.github.io/}{https://djx06.github.io/} & Mobile : +1-206-693-9528 \\
+\end{tabular*}
+
+%-----------RESEARCH-----------------
+\section{Research Interests}
+ \resumeSubHeadingListStart
+      My research lies at the intersection of \textbf{applied AI/ML} and \textbf{human-computer interaction}.
+      I post-train \textbf{LLMs/VLMs} with \textbf{SFT} and \textbf{RL} to understand and model human behavior from \textbf{eye tracking} and \textbf{wearable sensing}, enabling \textbf{personalized}, \textbf{context-aware} AI assistants.
+      I also build benchmarks and retrieval methods for \textbf{LLM agents} that reason over long-horizon, heterogeneous, and evolving context.
+      % Previous version:
+      % My research in \textbf{human-computer interaction} and \textbf{applied AI/ML} focuses on developing \textbf{multimodal, sensor-fusion} systems to understand user attention, cognition and interaction.
+      % I fine-tune \textbf{LLM} to process time-series sensing data from eye tracking and wearable to enable \textbf{personalized} and \textbf{context-aware} experiences.
+      % I build end-to-end systems, including gaze-aware summarizers and reading assistants.
+      % My research lies at the intersection of human-computer interaction, ubiquitous sensing, and applied machine learning. I develop multimodal models that use gaze, acoustic, and wearable sensor data to infer user attention and cognitive states. By integrating sensor fusion, self-supervised learning, and large language models, I aim to enable adaptive and context-aware interaction techniques for next-generation AR systems.
+ \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \educationSubheading
+      {University of Washington}{Seattle, WA}
+      {Ph.D. in Electrical \& Computer Engineering}
+      {Sept. 2024 -- Present}{}
+      {Master of Science in Technology Innovation}
+      {Sept. 2022 -- March 2024}{}
+    \educationSubheadingNew
+      {Tsinghua University}{Beijing, China}
+      {Master of Engineering in Data Science and Information Technology (with Honors)}{Sept. 2021 -- June 2024}
+      {Bachelor of Engineering in Computer Science and Technology}
+      {Sept. 2017 -- June 2021}
+      {Bachelor of Arts in Product Design (Second Major)}
+      {Sept. 2018 -- June 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Microsoft, Copilot, Agents \& Platform}{Redmond, WA}
+      {Applied Scientist Intern}{June 2026 – Sept. 2026}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Built \textbf{PULSE}, a benchmark for \textbf{persistent project-state understanding} of \textbf{enterprise agents} with 1,573 questions based on HERB corpus, covering open loops, project evolution, and team-vs-individual view gaps. \pubref{pub:pulse}{https://arxiv.org/abs/2611.28374}}
+        \resumeItem{}
+          {Benchmarked \textbf{ReAct agents}, graph/memory-augmented retrieval, long-context, and oracle settings; showed retrieval is the largest bottleneck (F1 31.4 $\rightarrow$ 66.9 with gold evidence), while explicit \textbf{state construction} adds further gains (78.1), and cross-source and perspective-dependent reasoning remain hard.}
+        \resumeItem{}
+          {Designed a \textbf{Workstream Graph} retriever that improved gold-evidence recall +22.7, and answer quality +4.9 compared to the RAG baseline with the same token budget.}
+      \resumeItemListEnd
+      
+  \resumeSubheading
+      {Ubicomp Lab \& NEWT Lab, University of Washington}{Seattle, WA}
+      {Research Assistant, Advisor: Prof. Shwetak Patel, Akshay Gadre}{Sept. 2024 – Present}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Proposed \textbf{VLGaze}, post-training a \textbf{VLM} with \textbf{SFT} and \textbf{GRPO} using a novel \textbf{distribution-matching reward} that rewards human-like scanpaths while penalizing intra-group similarity, to model \textbf{human visual search}. \pubref{pub:vlgaze}{https://drive.google.com/file/d/1diBcZHLuZOglUQNKuy4ITRXfikHLhld4/view?usp=sharing}}
+        \resumeItem{}
+          {Achieved \textbf{SOTA} on distributional metrics while matching or beating all baselines on accuracy, the first method to do both on COCO-Search18, with a tunable \textbf{accuracy-variability trade-off}.}
+        \resumeItem{}
+          {Used gaze as an \textbf{implicit prompt} for \textbf{LLM personalization}: gaze heatmaps outperformed explicit user prompts, and a fine-tuned \textbf{lightweight 3B} gaze-aware LLM matched Gemini 2.0 on personalized summarization. \pubref{pub:gazesummary}{https://dl.acm.org/doi/abs/10.1145/3789514.3792037}}
+        \resumeItem{}
+          {Detecting users' \textbf{cognitive states} from physiological signals during LLM use to enable adaptive interaction.}
+      % \resumeItem{}
+      % {Develop applications in \textbf{Meta Quest Pro} to visualize the human images behind the wall.}
+      \resumeItemListEnd
+      % \resumeItemListStart
+      %   \resumeItem{}
+      %     {Conduct research in using \textbf{millimeter wave} radar to tracking human activity behind a wall.}
+      %   \resumeItem{}
+      %     {Build hardware prototypes to control millimeter radar and use synthetic-aperture radar (SAR) to generate images.}
+      % \resumeItem{}
+      % {Develop applications in \textbf{Meta Quest Pro} to visualize the human images behind the wall.}
+      % \resumeItemListEnd
+
+    \resumeSubheading
+      {AnalyticDB, Alibaba Cloud}{Beijing, China}
+      {Machine Learning Engineer Intern}{June. 2024 – Sept. 2024}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Developed churn prediction model using \textbf{Behavior Sequence Transformer} on large-scale user behavior logs.}
+        \resumeItem{}
+          {Built distributed training and inference pipelines using \textbf{DeepSpeed} and \textbf{Triton} on cloud.
+          % Trained the model distributively using \textbf{DeepSpeed}. Deployed the model and inferenced the prediction results using \textbf{Triton}. Processed game log data using Spark.
+          }
+      \resumeItemListEnd
+      
+  \resumeSubheading
+      {Ubicomp Lab, University of Washington}{Seattle, WA}
+      {Research Assistant, Advisor: Prof. Shwetak Patel}{Sept. 2022 – March 2024}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Led FlowRing, an \textbf{XR} input ring supporting both microgestures and mouse-grade 2D surface input.}
+        \resumeItem{}
+          {Designed and trained a \textbf{multimodal} model fusing optical flow, contact-microphone, and IMU signals, achieving 93.6\% microgesture accuracy across sessions and 90.1\% on unseen users with only four examples. \pubref{pub:flowring}{https://dl.acm.org/doi/full/10.1145/3743706}}
+        \resumeItem{}
+          {Built a real-time music-player demo showing \textbf{context-aware} subtle input with a sensing ring. \pubref{pub:zring}{https://dl.acm.org/doi/10.1145/3586182.3615809}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Pervasive HCI Lab, Tsinghua University}{Beijing, China}
+      {Research Assistant, Advisor: Prof. Yuanchun Shi, Prof. Yuntao Wang}{June 2020 – June 2024}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Built a \textbf{gaze-text multimodal transformer} fused with a \textbf{pre-trained language model} (RoBERTa) to detect unknown words for ESL learners, reaching 97.6\% accuracy and staying robust on noisy \textbf{webcam} gaze. \pubref{pub:eyelingo}{https://dl.acm.org/doi/full/10.1145/3706598.3714181}\pubref{pub:gazereader}{https://dl.acm.org/doi/10.1145/3544549.3585790}}
+        % \resumeItem{}
+        %   {Enabled calibration-free \textbf{distributed acoustic ranging} by synchronizing nodes over \textbf{Bluetooth}, achieving 2.5\,cm accuracy within 5\,m.}
+        \resumeItem{}
+          {Built earbud-based ultrasonic head tracking robust to low SNR, achieving 3.7\textdegree{} median yaw error and 93.5\% accuracy in detecting device-facing attention. \pubref{pub:faceori}{https://dl.acm.org/doi/10.1145/3491102.3517698}}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {EMEA Delivery Center, AsiaInfo International Ltd}{Beijing, China}
+    %   {Software Engineer}{July 2019 – Aug. 2019}{}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Leveraged automated test platforms based on \textbf{Selenium} to test interfaces and code blocks, ensuring the reliability and performance of software components.}
+    %     \resumeItem{}
+    %       {Participated in the development process of the employee management system using \textbf{Spring Boot} and \textbf{Java}.}
+    %   \resumeItemListEnd
+  \resumeItemListEnd
+
+ %--------Publications-----------------
+
+ \ifboolexpr{test {\ifdef{\research}} }{
+\section{Publications}
+* denotes equal contributions.
+% Keep entries ordered latest -> oldest; numbering and in-text \pubref{} numbers update automatically.
+\begin{enumerate}[label={[\arabic*]},ref={[\arabic*]},itemsep=2pt,topsep=0pt,parsep=0pt]
+    \item\label{pub:pulse} (Under Review) \textbf{Jiexin Ding}, Lin Ai, et al. 2027. Taking the PULSE of Enterprise Workflows: Evaluating Persistent Project-State Understanding (ICLR 27, accepted by NeurIPS 26 workshop).
+    \item\label{pub:vlgaze} (Under Review) \textbf{Jiexin Ding}, Yue Jiang, et al. 2027. Modeling Human Visual Search with Accuracy and Natural Behavioral Variability (CVPR 27).
+    \item\label{pub:gazesummary} \textbf{Jiexin Ding}, Yizhuo Zhang, et al. 2026. GazeSummary: Exploring Gaze as an Implicit Prompt for Personalization in text-based LLM Tasks. The International Workshop on Mobile Computing Systems and Applications (HOTMOBILE 26).
+    \item\label{pub:flowring} Ishan Chatterjee*, \textbf{Jiexin Ding}*, et al. 2025. FlowRing: Integrated Microgesture and Surface Interaction Ring for Versatile XR Input. International Conference on Mobile Human-Computer Interaction (MobileHCI 25).
+    \item\label{pub:eyelingo} \textbf{Jiexin Ding}, Bowen Zhao, et al. 2025. Unknown Word Detection for English as a Second Language (ESL) Learners Using Gaze and Pre-trained Language Models. CHI Conference on Human Factors in Computing Systems (CHI 25).
+    % \item \textbf{Jiexin Ding}, Ishan Chatterjee, et al. 2024. Demo of FlowRing: Seamless Cross-Surface Interaction via Opto-Acoustic Ring. Adjunct Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST 24 Adjunct).
+    \item\label{pub:zring} (\textbf{Best Demo}) Anandghan Waghmare, \textbf{Jiexin Ding}, et al. 2023. Demo of Z-Ring: Context-Aware Subtle Input Using Single-Point Bio-Impedance Sensing. Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST 23 Adjunct).
+    \item\label{pub:gazereader} \textbf{Jiexin Ding}*, Bowen Zhao*, et al. 2023. GazeReader: Detecting Unknown Word Using Webcam for English as a Second Language (ESL) Learners. Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems (CHI EA 23).
+    \item\label{pub:faceori} Yuntao Wang*, \textbf{Jiexin Ding}*, et al. 2022. FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones. CHI Conference on Human Factors in Computing Systems (CHI 22).
+\end{enumerate}
+ }{}
+
+
+%-----------PROJECTS-----------------
+\section{Selected Projects}
+  \resumeSubHeadingListStart
+    \project
+      {{ReadEasy}: an LLM-based Academic Reading Assistant}{Sept. 2023 - June 2024}
+      \resumeItemListStart
+        \resumeItem{}
+          {Led the development and definition of ReadEasy, an \textbf{LLM}-based app that assists academic reading by providing personalized word explanation and summary using \textbf{OpenAI Assistants API}.}
+        \resumeItem{}
+          {Built a \textbf{transformer-based model} to detect unknown words using gaze and text data with 97.6\% accuracy.}
+        \resumeItem{}
+          {Developed a web-based PDF viewer using \textbf{React} and \textbf{PDF.js} with personalized word explanation and summary.}
+      \resumeItemListEnd
+
+    % \ifboolexpr{test {\ifdef{\hci}} }{
+    %   \project
+    %   {{FlowRing}: Integrating Microgestures and Surface Interaction for XR Input}{June 2023 – April 2024}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Detected in-air gestures and on-surface interaction with a ring using \textbf{CNN+LSTM} and achieved 92.7\% accuracy.}
+    %     \resumeItem{}
+    %       {Transmitted data via \textbf{BLE} and read acoustic data from the contact microphone using interrupt on Seeed Xiao.}
+    %     \resumeItem{}
+    %       {Used \textbf{CUDA} to train the model on GPUs and built a \textbf{multithreaded} app to operate a music player by gestures.}
+    %   \resumeItemListEnd
+    % }
+
+    %  \ifboolexpr{test {\ifdef{\hci}} }{
+    %   \project
+    %   {{GazeReader}: Unknown Word Detection Using Gaze and Language Model}{Jan.2023 – Sept.2023}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Implemented a transformer-based model to detect unknown words in which the positional data of gaze and text is embedded using an \textbf{encoder-decoder model} and the textual information is embedded using \textbf{RoBERTa}. The accuracy is 97.6\% and the F1-score is 71.1\%.}
+    %     \resumeItem{}
+    %       {Demonstrated the robustness of our method on less-precise webcam-based gaze data and achieved the accuracy of 97.3\% and the F1-score of 65.1\%.}
+        
+    %   \resumeItemListEnd
+    % }
+
+    \ifboolexpr{test {\ifdef{\hci}} }{
+      \project
+      {{AcousLink}: Distributed Ultrasonic Ranging Method and Applications}{Apr. 2022 – Jan. 2023}
+      \resumeItemListStart
+        \resumeItem{}
+          {Implemented the \textbf{FMCW}-based ultrasonic ranging module with a 100kHz sampling rate on Nordic Semi nRF52840-DK using the tweeter and high sensitivity microphone using \textbf{C}.}
+        \resumeItem{}
+          {Enabled calibration-free ranging by leveraging \textbf{Bluetooth} for the time synchronization between two boards.}
+        \resumeItem{}
+          {Achieved 2.5 cm tracking accuracy in the range of 5 m.}
+      \resumeItemListEnd
+    }
+
+    % \ifboolexpr{test {\ifdef{\hci}} }{
+    %   \project
+    %   {{FaceOri}: Tracking Head Position and Orientation Using Acoustic Ranging}{July 2020 – Sept. 2021}
+    %   \resumeItemListStart
+    %     % \resumeItem{}
+    %     %   {Tracked face orientations by calculating the real-time distance between microphones on the earbuds and laptop speaker with a median absolute error of 10.9 mm in the distance and 3.7◦ in yaw, better than AirPods Pro.}
+    %     \resumeItem{}
+    %     {Calculated the real-time distance between the speaker and the microphones embedded in the commodity earbuds using the \textbf{FMCW}-based acoustic ranging method to detect face orientations.}
+    %     \resumeItem{}
+    %     {Conducted user study and achieved a median absolute error of 10.9 mm in the distance, 3.7◦ in yaw, and 5.8◦ in pitch, better than AirPods Pro.}
+    %     \resumeItem{}
+    %     {Enabled the attention detection with 93.5\% accuracy and built an \textbf{Android} app with auto-screen-lock function.}
+    %   \resumeItemListEnd
+    % }
+
+    \ifboolexpr{test {\ifdef{\ml}} }{
+      \project
+      {Drug Repurposing for Covid-19}{October 2020 – May 2021}
+      \resumeItemListStart
+        \resumeItem{}
+          {Implemented \textbf{EGNN}, E(n)-Equivariant Graph Neural Network, to generate molecular conformation.}
+        \resumeItem{}
+          {Repurposed drug for Covid-19 by implementing \textbf{recommendation} algorithms including the collaborative matrix factorization model, heterogeneous network model and NeoDTI. The best AUPR is 0.9566 on a balanced dataset.}
+      \resumeItemListEnd
+    }
+
+    \ifboolexpr{test {\ifdef{\sde}} }{
+    \project{Key-Value Database Design}{April 2020 - June 2020}
+      \resumeItemListStart
+        \resumeItem{}
+          {Designed and Developed a key-value database that supported creating, reading, updating, deletion, transaction concurrency control, and transaction recovery.}
+      \resumeItemListEnd
+      }
+
+    \ifboolexpr{test {\ifdef{\sde}} }{
+      \project
+      {Intra-Domain Router}{Sept. 2019 - Dec. 2019}
+      \resumeItemListStart
+        \resumeItem{}
+          {Built a router on a \textbf{Raspberry Pi} using \textbf{C++} by enabling updating and querying routing table and forwarding.}
+        \resumeItem{}
+          {Implemented \textbf{RIP} protocol to learn the topology information of the network and used it to forward packets.}
+      \resumeItemListEnd
+      }
+
+      %  \project
+      % {Employee Administration System}{Oct. 2019 – Dec. 2019}
+      % \resumeItemListStart
+      %   \resumeItem{}
+      %     {Developed the web front end of an administrator system with the functions of permission management, business management, and news management using the \textbf{React}.}
+      %   \resumeItem{}
+      %     {Completed the unit testing that resulted in 86\% coverage, significantly reducing potential post-deployment issues.}
+      % \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+\section{Honors}
+ \resumeSubHeadingListStart
+    \HonorSubheading{Outstanding Graduate (Top 2\%), Tsinghua University}{2024}
+    \HonorSubheading{Jury Best Demo Award, UIST}{2023}
+     \HonorSubheading{Excellent Comprehensive Scholarship, Tsinghua University}{2023}
+     \HonorSubheading{China National Scholarship (Top 0.2\%)}{2022}
+ \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+ % \resumeSubHeadingListStart
+   % \item{
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS}
+     \hfill
+
+     \textbf{ML \& LLM}{: PyTorch, TensorFlow, TRL, PEFT/LoRA, CUDA, scikit-learn}
+     \hfill
+
+     \textbf{Methods}{: LLM/VLM Post-training (SFT, GRPO), LLM Agents (ReAct, Tool Use), RAG, Vector Search, Prompt Engineering, Transformers, Time-Series \& Sensor Fusion, Eye Tracking, User Studies}
+     \hfill
+
+     \textbf{Systems \& Tools}{: Linux, Git, Docker, React, Node.js, Unity, BLE, Embedded C (nRF52)}
+     \hfill
+
+     % \textbf{Electrical engineering skills}: oscilloscope, function generator, logic analyzer, multimeter, soldering
+     \textbf{Prototyping}{: Soldering, 3D Printing, Laser Cutting, 3D Modeling (Rhino, SketchUp)}
+     \hfill
+     
+     % \textbf{Wireless}: Bluetooth, BLE
+   % }
+ % \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

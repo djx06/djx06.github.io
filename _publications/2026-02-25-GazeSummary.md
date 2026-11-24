@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-02-25-gazesummary
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-02-25
-venue: 'hotMobile'
+venue: 'HotMobile'
 paperurl: 'https://arxiv.org/abs/2601.17676'
 citation: 'Jiexin Ding, Yizhuo Zhang, Xinyun Liu, Ke Chen, Yuntao Wang, Shwetak Patel, and Akshay Gadre. 2026. GazeSummary: Exploring Gaze as an Implicit Prompt for Personalization in Text-based LLM Tasks. In The 27th International Workshop on Mobile Computing Systems and Applications (HotMobile 26), February 25–26, 2026, Atlanta, GA, USA. ACM, New York, NY, USA, 9 pages. </i>'
 ---
